@@ -1,8 +1,6 @@
 from sympy import pi,sin,cos,acos,sqrt,oo
 from os import system
 
-
-
 class Solver():
     G=6.67428e-11
 

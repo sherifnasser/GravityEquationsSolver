@@ -14,12 +14,12 @@ def calculate_r_of_t():
 def calculate_t_of_r():
     t,r=Solver().calculate_t_of_r()
     t_in_days=__time_in_days(t)
-    print("t( r =",r,") = ",t,"= s",t_in_days,"days")
+    print("t( r =",r,") = ",t,"s =",t_in_days,"days")
 
 def calculate_capital_t():
     capital_t=Solver().calculate_capital_t()
     capital_t_in_days=__time_in_days(capital_t)
-    print("T = ",capital_t,"= s",capital_t_in_days,"days")
+    print("T = ",capital_t,"s =",capital_t_in_days,"days")
     print("T(one fall) = ",capital_t/4,"= s",capital_t_in_days/4,"days")
 
 def __time_in_days(t:float):
